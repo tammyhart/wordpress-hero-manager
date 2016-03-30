@@ -16,7 +16,6 @@ thd_hero_style( $post );
 	<div class="container">
 		<h1><?php thd_hero_title( $post ); ?></h1>
 		<p class="subtitle"><?php thd_hero_subtitle( $post ); ?></p>
-		<?php the_post_thumbnail(); ?>
 	</div>
 </section>
 <?php wp_reset_postdata(); ?>
