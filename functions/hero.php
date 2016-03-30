@@ -22,7 +22,7 @@ function thd_register_hero_cpt() {
 	
 	$args = array(
 		'labels'	=> $labels,
-		'public'	=> true,
+		'public'	=> false,
 		'show_ui'	=> true,
 		'menu_icon'	=> 'dashicons-images-alt',
 		'supports'	=> array( 'title' ),
