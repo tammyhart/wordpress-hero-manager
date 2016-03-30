@@ -1,0 +1,354 @@
+{
+    "key": "group_56f7395059501",
+    "title": "Hero",
+    "fields": [
+        {
+            "key": "field_56f73b51b7a6a",
+            "label": "Content",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_56f73954b7a62",
+            "label": "Title",
+            "name": "hero_title",
+            "type": "text",
+            "instructions": "Override default title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_56f739cfb7a65",
+            "label": "Subtitle",
+            "name": "hero_subtitle",
+            "type": "text",
+            "instructions": "Not used on blog posts. Instead, date and category are listed",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_56f73b6ab7a6b",
+            "label": "Design",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_56f73986b7a63",
+            "label": "Contrast",
+            "name": "hero_contrast",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "light": "light",
+                "dark": "dark"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "light",
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_56fa260362c97",
+            "label": "Overlay",
+            "name": "hero_overlay",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "none",
+                "light": "light",
+                "dark": "dark"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_56f9dae9d2a9c",
+            "label": "Background Color",
+            "name": "hero_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#E0E6E8"
+        },
+        {
+            "key": "field_56f765696b745",
+            "label": "Image Repeat",
+            "name": "hero_image_repeat",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "repeat",
+                "repeat-x": "repeat-x",
+                "repeat-y": "repeat-y",
+                "no-repeat": "no-repeat"
+            },
+            "default_value": {
+                "no-repeat": "no-repeat"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_56f739b5b7a64",
+            "label": "Background Image",
+            "name": "hero_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_56f73a09b7a66",
+            "label": "Mobile Image Position",
+            "name": "hero_mobile_image_position",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left top": "left top",
+                "center top": "center top",
+                "right top": "right top",
+                "left center": "left center",
+                "center": "center",
+                "right center": "right center",
+                "left bottom": "left bottom",
+                "center bottom": "center bottom",
+                "right bottom": "right bottom"
+            },
+            "default_value": {
+                "center": "center"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_56f73a94b7a67",
+            "label": "Mobile Image Size",
+            "name": "hero_mobile_image_size",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "50% auto": "50% auto",
+                "cover": "cover",
+                "contain": "contain"
+            },
+            "default_value": {
+                "cover": "cover"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_56f73ab5b7a68",
+            "label": "Desktop Image Position",
+            "name": "hero_desktop_image_position",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left top": "left top",
+                "center top": "center top",
+                "right top": "right top",
+                "left center": "left center",
+                "center": "center",
+                "right center": "right center",
+                "left bottom": "left bottom",
+                "center bottom": "center bottom",
+                "right bottom": "right bottom"
+            },
+            "default_value": {
+                "center": "center"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_56f73b31b7a69",
+            "label": "Desktop Image Size",
+            "name": "hero_desktop_image_size",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "50% auto": "50% auto",
+                "cover": "cover",
+                "contain": "contain"
+            },
+            "default_value": {
+                "cover": "cover"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "hero"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1459275121
+}

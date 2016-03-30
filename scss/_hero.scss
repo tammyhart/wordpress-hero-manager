@@ -1,0 +1,80 @@
+/**
+ * Hero
+ */
+.hero {
+	padding:100px 0 30px;
+	position:relative;
+	
+	@include breakpoint($bp-bravo) {
+		padding:200px 0 60px;
+	}
+	
+	@include breakpoint($bp-charlie) {
+		padding:300px 0 90px;
+	}
+	
+	.hero_dark & {
+		color:white;
+	}
+	
+	&.overlay_dark:before,
+	&.overlay_light:before {
+		content:'';
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+	
+	&.overlay_dark:before {
+		background:rgba(black,.5);
+	}
+	
+	&.overlay_light:before {
+		background:rgba(white,.5);
+	}
+	
+	.container {
+		position:relative;
+	}
+	
+	h1 {
+		margin:0;
+	}
+	
+	.subtitle {
+		font:italic 18px/1.5 sans-serif;
+		opacity:.66;
+		margin:0;
+		
+		a {
+			color:inherit;
+			border-bottom-color:inherit;
+		}
+		
+		@include breakpoint($bp-bravo) {
+			margin:0;
+		}
+	}
+	
+	img {
+		display:block;
+		margin:15px auto -45px;
+		box-shadow:0 2px 2px rgba(black,.04);
+		
+		@include breakpoint($bp-bravo) {
+			margin-bottom:-90px;
+		}
+		
+		@include breakpoint($bp-charlie) {
+			margin-bottom:-125px;
+		}
+		
+		@include breakpoint($bp-delta) {
+			float:right;
+			margin:-100px 0;
+			width:percentage(374/1200);
+		}
+	}
+}
