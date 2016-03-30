@@ -1,5 +1,5 @@
 # WordPress Hero Manager
-Adds a custom post type and custom meta box (requires Advanced Custom Fields Pro plugin) for managing post/page heroes and extends the manageability to indexes and other "pages" in WordPress.
+Adds a custom post type and custom meta box (requires Advanced Custom Fields Pro plugin) for managing post/page heroes and extends the manageability to indexes and other "pages" in WordPress. See [screenshot](http://d.pr/i/ezcR) of custom meta box.
 
 ## Installation
 1. Download [zip](https://github.com/tammyhart/wordpress-hero-manager/archive/master.zip) and drop files into theme or clone into theme.
