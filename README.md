@@ -9,7 +9,7 @@ Adds a custom post type and custom meta box (requires Advanced Custom Fields Pro
 5. Use included Sass styles or create your own.
 
 ## Usage
-The ACF JSON files will add a meta box to posts, pages, and heroes post types. Afte you sync the field group, you can add support for your own custom post types and taxonomies. To support matching heroes to custom taxonomies and post type archives, code in functions/hero.php is commented, just follow the previous pattern.
+The ACF JSON files will add a meta box to posts, pages, and heroes post types. After you sync the field group, you can add support for your own custom post types and taxonomies. To support matching heroes to custom taxonomies and post type archives, code in functions/hero.php is commented, just follow the previous pattern.
 
 To use heroes for non post type pages, add a new Hero post and assign the proper relationship. "Pages" that are currently supported:
 - Posts Page (main blog index)
